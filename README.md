@@ -7,3 +7,8 @@
 gatsby new storepractice  https://github.com/gatsbyjs/gatsby-starter-default
 ```
 
+2. **Install SASS.**
+
+```
+npm i --save node-sass gatsby-sass-plugin
+```

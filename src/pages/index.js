@@ -1,11 +1,18 @@
 import React from "react"
-import * as styles from '../styles/Index.module.scss'
+import { FaBeer } from 'react-icons/fa';
+
+import Header from '../components/header/header'
+import * as layout from '../styles/Layout.module.scss'
 import SEO from "../components/seo"
 
 export default () => (
-  <div className={styles.Container}>
+  <div className={layout.Gridcontainer}>
     <SEO title="Home" />
-    <h1>Hello world!</h1>
-    <p>CSS preprocessors are pretty great.</p>
+    <div className={layout.Gridcontainer__header}>
+      <Header />
+    </div>
+    <div className={layout.Gridcontainer__hero}>
+      hero
+    </div>
   </div>
 );
