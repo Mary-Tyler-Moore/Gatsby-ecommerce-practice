@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import Logo from '../../images/logosvg.svg'
-import { FaCartArrowDown } from 'react-icons'
+import { FaCartArrowDown } from 'react-icons/fa'
 
 import '../../styles/bootstrap.min.css'
 import * as styles from '../../styles/Layout.module.scss'
@@ -44,6 +44,7 @@ export default class Navbar extends Component {
                             (
                                 <li className="nav-item" key={link.id}><Link className="nav-link text-capitalize" to={link.path}>{link.text}</Link></li>
                             ))}
+                        <li><FaCartArrowDown /></li>
                     </ul>
                 </div>
             </nav>
