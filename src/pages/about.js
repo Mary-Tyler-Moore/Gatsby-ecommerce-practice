@@ -12,7 +12,7 @@ export default ({ data }) => (
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="About Crown Coffee"
-      styleClass="default-background" />
+      styleClass="about-background" />
     <Info />
   </Layout>
 );

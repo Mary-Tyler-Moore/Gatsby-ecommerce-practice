@@ -27,10 +27,9 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2rem;
 }
 
-
 /* BackgroundSection */
 
-.default-background{
+.default-background, .about-background{
   min-height: calc(100vh - 64px);
   display: flex;
   align-items: center;
@@ -51,6 +50,13 @@ h1,h2,h3,h4,h5,h6 {
   color:var(--mainWhite);
   background-color: var(--mainYellow);
 }
+
+/* About hero style */
+
+.about-background{
+  min-height: calc(60vh - 64px);
+}
+
 
 /* Footer */
 
