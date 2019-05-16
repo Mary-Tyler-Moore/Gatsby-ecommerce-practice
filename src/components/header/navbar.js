@@ -26,7 +26,13 @@ export default class Navbar extends Component {
 
     }
     navbarHendler = () => {
-        console.log('navbarhandler')
+        this.state.navbarOpen ? this.setState({
+            navbarOpen: false,
+            css: 'collapse navbar-collapse'
+        }) : this.setState({
+            navbarOpen: true,
+            css: 'collapse navbar-collapse show'
+        })
     }
 
     render() {
@@ -40,11 +46,12 @@ export default class Navbar extends Component {
                 </button>
                 <div className={this.state.css}>
                     <ul className="navbar-nav mx-auto">
-                        {this.state.links.map(link =>
-                            (
-                                <li className="nav-item" key={link.id}><Link className="nav-link text-capitalize" to={link.path}>{link.text}</Link></li>
-                            ))}
-                        <li><FaCartArrowDown /></li>
+                        {this.state.links.map(link => {
+                            return (
+                                <li className="nav-item" key={link.id}><Link className="nav-link  text-capitalize" to={link.path}>{link.text}</Link></li>
+                            )
+                        })}
+                        <li className="nav-item ml-sm-5"><FaCartArrowDown className="cart-icon" /></li>
                     </ul>
                 </div>
             </nav>
