@@ -22,3 +22,8 @@ const BackgroundSection = ({
 }
 
 export default BackgroundSection;
+
+BackgroundSection.defaultProps = {
+    title: 'Welcome to Crown Coffee',
+    styleClass: "default-background",
+}
