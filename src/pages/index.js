@@ -7,6 +7,6 @@ import Layout from '../components/layout'
 export default () => (
   <Layout>
     <SEO title="Home" />
-    hello
+    <h1>Welcome to Crown Coffee</h1>
   </Layout>
 );
