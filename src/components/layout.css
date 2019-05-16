@@ -51,3 +51,9 @@ h1,h2,h3,h4,h5,h6 {
   color:var(--mainWhite);
   background-color: var(--mainYellow);
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--mainBrown);
+}

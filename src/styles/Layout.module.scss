@@ -30,12 +30,4 @@
             }
         }
     }
-    
-
-    &__hero{
-        background-image: url(../images/cafehero.jpeg);
-        background-size: cover;
-        background-position: center;
-        grid-column: col-start 1 / -1;
-    }
 }
