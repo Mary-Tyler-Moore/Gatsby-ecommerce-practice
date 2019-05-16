@@ -25,6 +25,7 @@ export default class Navbar extends Component {
         ],
 
     }
+
     navbarHendler = () => {
         this.state.navbarOpen ? this.setState({
             navbarOpen: false,
