@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import SEO from "../components/seo";
 import Layout from '../components/layout';
 import BackgroundSection from "../components/global/BackgroundSection";
+import Info from '../components/homepage/Info';
 
 export default ({ data }) => (
   <Layout>
@@ -12,7 +13,7 @@ export default ({ data }) => (
       img={data.img.childImageSharp.fluid}
       title="Welcome to Crown Coffee"
       styleClass="default-background" />
-
+    <Info />
   </Layout>
 );
 

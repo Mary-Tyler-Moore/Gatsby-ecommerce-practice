@@ -1,5 +1,5 @@
 :root {
-  --mainBrown:#2d1ef1;
+  --mainBrown:#6d5a4e;
   --mainYellow:rgb(255, 157, 10);
   --mainGrey:rgb(236, 232, 220);
   --mainWhite:#fff;
@@ -31,11 +31,23 @@ h1,h2,h3,h4,h5,h6 {
 /* BackgroundSection */
 
 .default-background{
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 64px);
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
+}
+
+.btn-yellow{
+  color:var(--mainYellow);
+  border-color: var(--mainYellow);
+  width: 200px;
+  padding:10px 30px !important;
+  border-radius: 120px;
+}
+.btn-yellow:hover{
+  color:var(--mainWhite);
+  background-color: var(--mainYellow);
 }
