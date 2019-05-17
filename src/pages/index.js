@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import Layout from '../components/layout';
 import BackgroundSection from "../components/global/BackgroundSection";
 import Info from '../components/homepage/Info';
+import Menu from '../components/homepage/Menu';
 
 export default ({ data }) => (
   <Layout>
@@ -14,6 +15,7 @@ export default ({ data }) => (
       title="Welcome to Crown Coffee"
       styleClass="default-background" />
     <Info />
+    <Menu items={data.menu} />
   </Layout>
 );
 
@@ -28,7 +30,24 @@ export const query = graphql`
         }
       }
     }
-   
+    menu:allContentfulCoffeeItem{
+      edges{
+        node{
+          id,
+          title,
+          price,
+          image{
+            fixed(width:150,height:150){
+              ...GatsbyContentfulFixed_tracedSVG
+            }
+          },
+          category,
+          description{
+            description
+          }
+        }
+      }
+    }
   }
 `;
 
