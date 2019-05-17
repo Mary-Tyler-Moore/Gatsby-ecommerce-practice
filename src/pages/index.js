@@ -17,14 +17,47 @@ export default ({ data }) => (
   </Layout>
 );
 
+
+
 export const query = graphql`
-{
-      img: file(relativePath:{eq: "cafehero.jpeg"}){
-      childImageSharp{
-    fluid{
-      ...GatsbyImageSharpFluid_tracedSVG
+  {
+    img: file(relativePath: { eq: "cafehero.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
     }
-    }
+   
   }
-}
-`
+`;
+
+// export const query = graphql`
+// {
+//       img: file(relativePath:{eq: "cafehero.jpeg"}){
+//       childImageSharp{
+//     fluid{
+//       ...GatsbyImageSharpFluid_tracedSVG
+//     }
+//     }
+//   },
+//   menu: allContentfulCoffeeItem {
+//     edges {
+//       node {
+//         id
+//         title
+//         description {
+//           description
+//         }
+//         price
+//         category
+//         image {
+//           fixed(width: 50, height: 50) {
+//             ...GatsbyContentfulFixed_tracedSVG
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// `
