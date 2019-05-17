@@ -1,7 +1,7 @@
 :root {
   --mainBrown:#6d5a4e;
   --mainYellow:rgb(255, 157, 10);
-  --mainGrey:rgb(236, 232, 220);
+  --mainGrey:rgb(255, 251, 238);
   --mainWhite:#fff;
   --mainDark:#222;
 }
@@ -57,9 +57,14 @@ h1,h2,h3,h4,h5,h6 {
   min-height: calc(60vh - 64px);
 }
 
+/* Menu Page  */
 
+.menu {
+  background-color: var(--mainGrey);
+}
 /* Footer */
 
 .footer {
   background-color: var(--mainBrown);
 }
+
