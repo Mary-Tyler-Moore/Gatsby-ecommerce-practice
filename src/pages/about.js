@@ -8,7 +8,7 @@ import Info from '../components/homepage/Info';
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About Us" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="About Crown Coffee"
