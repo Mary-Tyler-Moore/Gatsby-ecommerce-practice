@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Title from '../global/Title';
 import Image from 'gatsby-image';
 
