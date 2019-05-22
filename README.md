@@ -91,4 +91,5 @@ arrayCategory -> (2) ["juice","tea"]
 
 8. **gatsby-plugin-snipcart** -> cart : only Test not Live(paid version)
 
-[Snipcart Doc](https://docs.snipcart.com)
+[Snipcart all Doc](https://docs.snipcart.com)
+[Payment Doc](https://docs.snipcart.com/testing/payments) -> dummy card number
