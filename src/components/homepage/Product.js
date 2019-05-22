@@ -1,9 +1,24 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
-const Product = () => {
+const Product = ({ product }) => {
     return (
-        <div>
-            Products component
+        <div className="col-10 col-sm-8 col-md-6 col-lg-4 mx-auto my-3">
+            <div className="card" style={{ minHeight: "100%" }}>
+                <Img
+                    className="card-img-top"
+                    fluid={product.image.fluid}
+                />
+                <div className="card-body text-center">
+                    <h6>{product.title}</h6>
+                    <h6>${product.price}</h6>
+                    <button
+                        type="button"
+                        className="btn btn-yellow mt-3 text-capitalize">
+                        add to cart
+                    </button>
+                </div>
+            </div>
         </div>
     )
 }

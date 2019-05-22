@@ -4,6 +4,7 @@
   --mainGrey:rgb(255, 251, 238);
   --mainWhite:#fff;
   --mainDark:#222;
+  --darkGery:rgb(162, 162, 162);
 }
 
 body {
@@ -69,8 +70,15 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Menu Page  */
 
-.menu {
+.menu, .contact {
   background-color: var(--mainGrey);
+}
+
+/* Contact page */
+
+::placeholder{
+  color:var(--darkGery) !important;
+ 
 }
 /* Footer */
 

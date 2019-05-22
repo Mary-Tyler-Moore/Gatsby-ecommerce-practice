@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
+
 import Title from '../global/Title';
 import Product from './Product';
 
@@ -28,7 +29,7 @@ const renderProduct = (data) => {
     return (
         <section className="py-5">
             <div className="container">
-                <Title title="Our Productss" />
+                <Title title="Our Products" />
                 <div className="row">
                     {items.map(({ node: product }) => {
                         return <Product key={product.id} product={product} />

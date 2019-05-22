@@ -7,6 +7,7 @@ import BackgroundSection from "../components/global/BackgroundSection";
 import Info from '../components/homepage/Info';
 import Menu from '../components/homepage/Menu';
 import Products from '../components/homepage/Products';
+import Contact from '../components/homepage/Contact';
 
 export default ({ data }) => (
   <Layout>
@@ -18,6 +19,7 @@ export default ({ data }) => (
     <Info />
     <Menu items={data.menu} />
     <Products />
+    <Contact />
   </Layout>
 );
 
