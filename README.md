@@ -75,3 +75,16 @@ arrayCategory -> (2) ["juice","tea"]
 - GatsbyContentfulFluid_tracedSVG
 - GatsbyContentfulFluid_withWebp
 - GatsbyContentfulFluid_withWebp_noBase64
+
+
+7. **formspree**
+
+```
+<form
+    action="https://formspree.io/your-email-address"
+    method="POST"
+>
+.....
+<input type="hidden" name="_next" value="url" /> -> redirect
+</from>
+```
