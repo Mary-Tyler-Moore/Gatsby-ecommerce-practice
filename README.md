@@ -21,7 +21,7 @@ npm i --save node-sass gatsby-sass-plugin
 npm i --save gatsby-background-image
 ```
 
-5. **Install gatsby-source-contentful**
+4. **Install gatsby-source-contentful**
 
 ```
 npm i --save gatsby-background-image
@@ -29,13 +29,13 @@ npm i --save gatsby-background-image
  - Make sure you set enviroment :edit variable on Netlify 
 ```
 
-4. hooks system
+5. **hooks system**
 
 ```
 failed it :(, refactor after completed 
 ```
 
-5. new Set() and Array.from
+6. **new Set() and Array.from**
 
 ```
 I understand so far, 
