@@ -60,3 +60,18 @@ arrayCategory -> (2) ["juice","tea"]
 
 
 ```
+
+6. **Gatsby-Image**
+
+**gatsby-source-contentful** -> only when you use contentful 
+(Make suer in component, don't try in GraphQL page -> error)
+- GatsbyContentfulFixed
+- GatsbyContentfulFixed_noBase64
+- GatsbyContentfulFixed_tracedSVG
+- GatsbyContentfulFixed_withWebp
+- GatsbyContentfulFixed_withWebp_noBase64
+- GatsbyContentfulFluid
+- GatsbyContentfulFluid_noBase64
+- GatsbyContentfulFluid_tracedSVG
+- GatsbyContentfulFluid_withWebp
+- GatsbyContentfulFluid_withWebp_noBase64
