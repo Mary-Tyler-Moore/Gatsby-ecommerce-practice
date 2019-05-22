@@ -93,3 +93,10 @@ arrayCategory -> (2) ["juice","tea"]
 
 [Snipcart all Doc](https://docs.snipcart.com)
 [Payment Doc](https://docs.snipcart.com/testing/payments) -> dummy card number
+
+9. **Webhooks** trigger deploy on Netlify when edit/add/delete on Contentful
+
+```
+1. netlify: get build webhooks url & name
+2. contentful: add webhooks url and name in webhook setting
+```
