@@ -12,7 +12,7 @@ export default ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Welcome to Crown Coffee"
+      title="Welcome to Crown Coffee it's not a real"
       styleClass="default-background" />
     <Info />
     <Menu items={data.menu} />

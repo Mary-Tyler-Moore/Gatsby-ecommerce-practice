@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6 {
 .btn-yellow-small:not(:last-child){
   margin-right: 25px;
 }
-.btn-yellow:hover{
+.btn-yellow:hover, .btn-yellow-small:hover{
   color:var(--mainWhite);
   background-color: var(--mainYellow);
 }
