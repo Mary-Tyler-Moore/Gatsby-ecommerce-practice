@@ -46,6 +46,16 @@ h1,h2,h3,h4,h5,h6 {
   padding:10px 30px !important;
   border-radius: 120px;
 }
+.btn-yellow-small{
+  color:var(--mainYellow);
+  border-color: var(--mainYellow);
+  width: 140px;
+  padding:10px 30px !important;
+  border-radius: 120px;
+}
+.btn-yellow-small:not(:last-child){
+  margin-right: 25px;
+}
 .btn-yellow:hover{
   color:var(--mainWhite);
   background-color: var(--mainYellow);

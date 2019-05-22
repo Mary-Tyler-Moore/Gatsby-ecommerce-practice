@@ -43,7 +43,7 @@ class Menu extends React.Component {
                         <div className="row mb-5">
                             <div className="col-10 mx-auto text-center">
                                 {this.state.categories.map((category, index) => {
-                                    return (<button onClick={() => this.handleItems(category)} className="btn btn-yellow text-capitalize" type="button" key={index}>{category}</button>)
+                                    return (<button onClick={() => this.handleItems(category)} className="btn btn-yellow-small text-capitalize" type="button" key={index}>{category}</button>)
                                 })}
                             </div>
                         </div>
