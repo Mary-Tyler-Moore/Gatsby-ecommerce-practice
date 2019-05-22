@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 import BackgroundSection from "../components/global/BackgroundSection";
 import Info from '../components/homepage/Info';
 import Menu from '../components/homepage/Menu';
+import Products from '../components/homepage/Products';
 
 export default ({ data }) => (
   <Layout>
@@ -16,6 +17,7 @@ export default ({ data }) => (
       styleClass="default-background" />
     <Info />
     <Menu items={data.menu} />
+    <Products />
   </Layout>
 );
 
