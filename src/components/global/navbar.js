@@ -52,7 +52,7 @@ export default class Navbar extends Component {
                                 <li className="nav-item" key={link.id}><Link className="nav-link  text-capitalize" to={link.path}>{link.text}</Link></li>
                             )
                         })}
-                        <li className="nav-item ml-sm-5"><FaCartArrowDown className="cart-icon" /></li>
+                        <li className="nav-item ml-sm-5"><FaCartArrowDown className="cart-icon snipcart-checkout" /></li>
                     </ul>
                 </div>
             </nav>

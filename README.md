@@ -88,3 +88,7 @@ arrayCategory -> (2) ["juice","tea"]
 <input type="hidden" name="_next" value="url" /> -> redirect
 </from>
 ```
+
+8. **gatsby-plugin-snipcart** -> cart : only Test not Live(paid version)
+
+[Snipcart Doc](https://docs.snipcart.com)

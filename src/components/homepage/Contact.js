@@ -53,7 +53,7 @@ const Contact = () => {
                         <button
                             type="submit"
                             className="btn btn-yellow btn-block text-capitalize">Submit</button>
-                        <input type="hidden" name="_next" value="http://localhost:8000/" />
+                        <input type="hidden" name="_next" value="https://crowncoffee.netlify.com/" />
                     </form>
                 </div>
             </div>
